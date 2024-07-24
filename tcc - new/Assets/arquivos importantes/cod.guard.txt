@@ -1,0 +1,176 @@
+ 
+<article>
+    <div class="slideshow-container">
+        <div class="slide sumir">
+            <img src="/Assets/img/teste banner.png" alt="Imagem 1">
+        </div>
+
+        <div class="slide sumir">
+            <img src="/Assets/img/teste-banner 2.png" alt="Imagem 2">
+        </div>
+
+        <div class="slide sumir">
+            <img src="/Assets/img/teste banner 3.png" alt="Imagem 3">
+        </div>
+    <div style="text-align:center">
+        <span class="botao" onclick="currentSlide(1)"></span>
+        <span class="botao" onclick="currentSlide(2)"></span>
+        <span class="botao" onclick="currentSlide(3)"></span>
+    </div>
+    </div>
+    <div class="container-maisvendidos">
+        <h2>Mais vendidos</h2>
+            <div class="produtos-mv">
+                <div class="produto">
+                    <a href="">
+                        <img src="/Assets/img/Captura_de_tela_2024-03-11_213234-removebg-preview.png" alt="" class="img1">
+                        <img src="/Assets/img/atras4.png" alt="" class="img2">
+                        <h3>Camiseta Lazzy</h3>
+                        <h4>R$89,99</h4>
+                        <p>ou 3x de R$ 63,30 Sem juros</p>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="">
+                        <img src="/Assets/img/Captura_de_tela_2024-03-11_213254-removebg-preview.png" alt="" class="img1">
+                        <img src="/Assets/img/atras3.png" alt="" class="img2">
+                        <h3>Camiseta Lazzy</h3>
+                        <h4>R$89,99</h4>
+                        <p>ou 3x de R$ 63,30 Sem juros</p>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="">
+                        <img src="/Assets/img/Captura_de_tela_2024-03-11_213305-removebg-preview.png" alt="" class="img1">
+                        <img src="/Assets/img/atras2.png" alt="" class="img2">
+                        <h3>Camiseta Lazzy</h3>
+                        <h4>R$89,99</h4>
+                        <p>ou 3x de R$ 63,30 Sem juros</p>
+                    </a>
+                </div>
+                <div class="produto">
+                    <a href="">
+                        <img src="/Assets/img/Captura_de_tela_2024-03-11_213317-removebg-preview.png" alt="" class="img1">
+                        <img src="/Assets/img/atras1.png" alt="" class="img2">
+                        <h3>Camiseta Lazzy</h3>
+                        <h4>R$89,99</h4>
+                        <p>ou 3x de R$ 63,30 Sem juros</p>
+                    </a>
+                </div>
+            </div>
+    </div>
+</article>
+<article class="container-promo">
+    <div class="prod-promo">
+        <div class="produtos-promo">
+            <a href="">
+                <img src="/Assets/img/Captura_de_tela_2024-03-11_213234-removebg-preview.png" alt="" class="img1">
+                <img src="/Assets/img/atras4.png" alt="" class="img2">
+                <h3>Camiseta Lazzy</h3>
+                <h4>R$89,99</h4>
+                <p>ou 3x de R$ 63,30 Sem juros</p>
+            </a>
+        </div>
+        <div class="produtos-promo">
+            <a href="">
+                <img src="/Assets/img/Captura_de_tela_2024-03-11_213234-removebg-preview.png" alt="" class="img1">
+                <img src="/Assets/img/atras4.png" alt="" class="img2">
+                <h3>Camiseta Lazzy</h3>
+                <h4>R$89,99</h4>
+                <p>ou 3x de R$ 63,30 Sem juros</p>
+            </a>
+        </div>
+        <div class="produtos-promo">
+            <a href="">
+                <img src="/Assets/img/Captura_de_tela_2024-03-11_213234-removebg-preview.png" alt="" class="img1">
+                <img src="/Assets/img/atras4.png" alt="" class="img2">
+                <h3>Camiseta Lazzy</h3>
+                <h4>R$89,99</h4>
+                <p>ou 3x de R$ 63,30 Sem juros</p>
+            </a>
+        </div>
+    </div>
+</article>
+<article class="container-conjunto">
+    <div class="container-maisvendidos">
+        <h2>Conjuntos</h2>
+        <div class="produtos-mv">
+            <div class="produto">
+                <a href="">
+                <img src="/Assets/img/Captura_de_tela_2024-03-11_213234-removebg-preview.png" alt="" class="img1">
+                <img src="/Assets/img/atras4.png" alt="" class="img2">
+                <h3>Camiseta Lazzy</h3>
+                <h4>R$89,99</h4>
+                <p>ou 3x de R$ 63,30 Sem juros</p>
+            </a>
+            </div>
+            <div class="produto">
+                <a href="">
+                <img src="/Assets/img/Captura_de_tela_2024-03-11_213254-removebg-preview.png" alt="" class="img1">
+                <img src="/Assets/img/atras3.png" alt="" class="img2">
+                <h3>Camiseta Lazzy</h3>
+                <h4>R$89,99</h4>
+                <p>ou 3x de R$ 63,30 Sem juros</p>
+            </a>
+            </div>
+            <div class="produto">
+                <a href="">
+                <img src="/Assets/img/Captura_de_tela_2024-03-11_213305-removebg-preview.png" alt="" class="img1">
+                <img src="/Assets/img/atras2.png" alt="" class="img2">
+                <h3>Camiseta Lazzy</h3>
+                <h4>R$89,99</h4>
+                <p>ou 3x de R$ 63,30 Sem juros</p>
+            </a>
+            </div>
+            <div class="produto">
+                <a href="">
+                <img src="/Assets/img/Captura_de_tela_2024-03-11_213317-removebg-preview.png" alt="" class="img1">
+                <img src="/Assets/img/atras1.png" alt="" class="img2">
+                <h3>Camiseta Lazzy</h3>
+                <h4>R$89,99</h4>
+                <p>ou 3x de R$ 63,30 Sem juros</p>
+            </a>
+            </div>
+        </div>
+    </div>
+</article>
+<footer>
+    <div class="ft-conteudo">
+        <div class="img-links">
+            <img src="/Assets/img/logo lazzy branca.png" alt=""><br>
+            <a href="">Quem somos</a><br>
+            <a href="">Política de Privacidade</a><br>
+            <a href="">Termos de uso</a><br>
+            <a href="">Política de Trocas e Devoluções</a><br>
+            <a href="">Politica de Entrega</a><br>
+            <a href="">Formas de Pagamento</a>
+        </div>
+        <div class="contato">
+            <h2>Fale Conosco</h2>
+            <small>Telefone:</small>
+            <p>(11) 2157-7899</p>
+            <small>Horários de Funcionamento:</small>
+            <p>Seg. a Sexta das 9h as 18h</p>
+            <small>E-mail:</small>
+            <p>contato@lazzycom</p>
+        </div>
+        <div class="selo">
+            <div class="pagamento">
+                <h2>FORMA DE PAGAMENTO</h2>
+                <img src="/Assets/img/selos de pagamento.png" alt="">
+            </div>
+            <div class="seguranca">
+                <h2>COMPRE COM SEGURANÇA</h2>
+                <img src="/Assets/img/selos de segurança.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="social">
+        <div class="redes">
+            <a href=""><img src="/Assets/img/ttwiter.png" alt=""></a>
+            <a href=""><img src="/Assets/img/instagram.png" alt=""></a>
+            <a href=""><img src="/Assets/img/Pinterest.png" alt=""></a>
+            <a href=""><img class="cm4" src="/Assets/img/icone-tiktok.png" alt=""></a>
+        </div>
+    </div>
+</footer>

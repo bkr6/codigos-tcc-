@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazzy - Home</title>
+    <link rel="shortcut icon" href="/Assets/img/logo-lazzy-icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/Assets/teste/testes/nv.css">
+</head>
+<body>
+    <header class="container-cabecalho">
+        <div class="central-atendimento">
+            <table>
+                <tr>
+                    <aside id="menuoculto" class="menuoculto">
+                        <a href="" class="btn-fechar" onclick="fechar()">&times;
+                        </a>
+                        <a href="">link1</a>
+                        <a href="">link1</a>
+                        <a href="">link1</a>
+                        <a href="">link1</a>
+                        <a href="">link1</a>
+                    </aside>
+                    <div class="principal" id="principal">
+                        <span style="font-size: 30px;cursor: pointer;" onclick="abrir()">&#9776;</span>
+                    </div>
+                    <td><img src="/Assets/img/icon central de atendimento.png" alt=""></td>
+                    <td><p>Central de <br><a href=""><strong>atendimento</strong></a></p></td>
+                </tr>
+            </table>
+        </div>
+        <div class="logo-lazzy">
+            <a href=""><img src="/Assets/img/logo lazzy.png" alt=""></a>
+        </div>
+        <div class="log-lista-carrinho">
+            <table>
+                <tr>
+                    <td class="img-log"><img src="/Assets/img/icon login.png" alt=""></td>
+                    <td>
+                        <p id="logado">Bem-vindo <br><a href="/entrar.html"><strong>ENTRAR</strong></a>-ou-<a href="/cadastro.html"><strong>CADASTRAR</strong></a></p></td>
+                    <td class="img-log1 lista">
+                        <button id="offcanvas" class="lista-desejo" style="border: none; background-color: white;"><a href=""><img src="/Assets/img/icon lista de desejos.png" alt=""></a></button>
+                        <div id="desejos">0</div>
+                    </td>
+                    <td class="img-log1 carrinho">
+                        <a href=""><img src="/Assets/img/icon carrinho.png" alt=""></a>
+                        <div id="carrinho">0</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <div class="divisao1">
+        <hr class="divisao">
+    </div>
+   
+    <nav class="container-links">
+        <div class="link-com-hover">
+            <a href=""><div><p>Camiseta</p></div></a>
+        </div>
+        <div class="link-com-hover">
+            <a href=""><div><p>Shorts</p></div></a>
+        </div>
+        <div class="link-com-hover">
+            <a href=""><div><p>Blusa</p></div></a>
+        </div>
+        <div class="link-com-hover">
+            <a href=""><div><p>Boné</p></div></a>
+        </div>
+        <div class="link-com-hover">
+            <a href=""><div><p>Acessórios</p></div></a>
+        </div>
+    </nav>
+<br><br><br><b><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br></b>
+<div></div>
+<script>
+    window.addEventListener("scroll", function(){
+    let header = document.querySelector('.container-cabecalho') 
+    header.classList.toggle('rolagem',window.scrollY > 0)
+    })
+    window.addEventListener("scroll", function(){
+    let header = document.querySelector('.principal') 
+    header.classList.toggle('aparecer',window.scrollY > 0)
+    })
+    function abrir(){
+        document.getElementById("menuoculto").style.width="300px"
+    }
+    function fechar(){
+        document.getElementById("menuoculto").style.width="0px";
+    }
+
+</script>
+    

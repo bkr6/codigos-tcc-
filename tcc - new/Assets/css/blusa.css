@@ -1,0 +1,1103 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+@media (min-width: 0px) and (max-width: 1440px){
+   *{
+      padding: 0;
+      margin: 0;
+      }
+      .banner-camiseta{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .banner-camiseta img{
+        width: 80%;
+      }
+      .container-cabecalho{
+         display: flex;
+         justify-content: space-around;
+         height: auto;
+         position: fixed;
+         width: 100%;
+         background-color: white;
+         height: auto;
+         z-index: 999;
+         }
+         .container-cabecalho.rolagem{
+            box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+      -webkit-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1); }
+      .logo-lazzy{
+        text-align: center;
+      width: 10%;
+      }
+      .logo-lazzy img{
+      width: 90%;
+      padding: 45px 0px 0px 90px;
+      }
+      .central-atendimento{
+      display: flex;
+      padding: 60px 0px 0px 0px;
+      }
+      .central-atendimento img{
+      width:80%;
+      }
+      .central-atendimento td{
+      width: 35px;
+      }
+      .central-atendimento p{
+      font-size: 12px;
+      color: rgb(104, 104, 104);
+      font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+      }
+      .central-atendimento a{
+      text-decoration: none;
+      color: rgb(48, 47, 47);
+      }
+      .central-atendimento a:hover{
+      text-decoration: underline;
+      }
+      .menuoculto{
+         height: 100%;
+         width: 0px;
+         position: fixed;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color:#000000 ;
+         overflow-x: hidden;
+         transition: 0.5s;
+         padding-top: 60px;
+         box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+         -webkit-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+         -moz-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+      }
+      .menuoculto a{
+         margin: 10px;
+         padding: 20px 8px 8px 32px;
+         text-decoration: none;
+         font-size: 25px;
+         color: #d8d6d6;
+         display: block;
+         transition: 0.3s;
+         font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+         transition: linear 0.4s;
+      }
+      .menuoculto a:hover{
+         color: #ffffff;
+         text-decoration: none;
+         transform: scale(1.1, 1.1);
+      }
+      @media screen and(max-width: 450px) {
+         .menuoculto{
+            padding-top: 15px;
+         }
+         .menuoculto a{
+            font-size: 18px;
+         }
+      }
+   .btn-fechar{
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+      color: white;
+      }
+      .principal{
+         opacity: 0;
+      }
+      .principal.aparecer{
+         opacity: 1;
+         transition: margin-left 0.5s;
+         margin: 10px 42px 0px -50px;
+      }
+      .log-lista-carrinho{
+      display: flex;
+      padding: 60px 0px 0px 0px;
+      justify-content: space-between;
+      font-size: 11px;
+      color: rgb(104, 104, 104);
+      }
+      .log-lista-carrinho img{
+      width: 75%;
+      padding: 10px;
+      }
+      .log-lista-carrinho .img-log{
+      width: 40px;
+      }
+      .log-lista-carrinho .img-log1{
+         width: 55px;
+      }
+      .lista{
+         position: relative;
+      }
+      .carrinho{
+         position: relative;
+      }
+      #carrinho{
+         position: absolute;
+         margin: -49px 40px;
+      }
+      #desejos{
+         position: absolute;
+         margin: -50px 40px;
+      }
+      .lista .listadesign{
+        border: none;
+      }
+      .log-lista-carrinho td{
+         height: 40px;
+         font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+      }
+      .log-lista-carrinho a{
+      text-decoration: none;
+      color: rgb(48, 47, 47);
+      font-size: 10px;
+      
+      }
+      .log-lista-carrinho a:hover{
+      text-decoration:underline;
+      }
+      .divisao1{
+         padding: 130px 0px 0px 0px;
+        }
+      .divisao{
+      display: block;
+      margin: 0px 110px 0px 110px;
+      height: 2px;
+      background-color: black;
+      border-radius: 0.5px;
+      }
+      .container-links{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px 400px 0px 400px;
+      }
+      .container-links a div{
+        text-decoration: none;
+        padding: 25px 30px;
+        color: rgb(24, 24, 24);
+      }
+      .container-links a{
+        text-decoration: none;
+        font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+      }
+      .container-links a div:hover{
+        font-weight: 900;
+       
+      }
+      .link-com-hover {
+        position: relative;
+        display: inline-block; 
+    }
+    .link-com-hover::after {
+        content: ''; 
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0px;
+        background-color: rgb(0, 0, 0);
+        transition: height 0.3s ease; 
+        transform: scaleX(0); 
+    }
+    .link-com-hover:hover::after {
+        height: 3%; 
+        transform: scaleX(1); 
+    }
+    .link-com-hover a {
+        display: inline-block;
+        padding-bottom: 5px; 
+        text-decoration: none; 
+    }
+    .container-maisvendidos{
+       text-align: center;
+      }
+      .container-maisvendidos h2{
+       font-size: 30px;
+       margin: 20px 0px;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+      }
+      .produtos-mv{
+       display: flex;
+       justify-content: space-evenly;
+      }
+      .produto {
+       width: 20%;
+       background-color: rgb(255, 255, 255);
+       height: 400px auto;
+       margin: 50px -90px;
+       transition: linear 0.4s;
+       position: relative;
+       overflow: hidden;
+      }
+      
+      .produto:hover {
+       box-shadow: 0px 4px 17px 0px rgba(29, 29, 29, 0.199);
+       transform: scale(1.1, 1.1);
+      }
+      
+      .produto img {
+       width: 90%;
+       padding: 10px;
+       transition: opacity 0.2s ease-in-out;
+      }
+      
+      .produto img.img2 {
+       opacity: 0;
+       position: absolute;
+       top: -15px;
+       left: 10px;
+      }
+      
+      .produto:hover img.img1 {
+       opacity: 0;
+      }
+      
+      .produto:hover img.img2 {
+       opacity: 1;
+      }
+      .produto h3{
+       padding: 10px;
+       font-size: 25px;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+      }
+      .produto h4{
+       font-size: 25px;
+       padding: 10px 0px 0px 0px;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+       text-decoration: underline;
+      }
+      .produto p{
+       font-size: 10px;
+       padding: 0px 0px 20px 0px;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+      }
+      .produto a{
+       text-decoration: none;
+       color:black;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+      }
+      footer{
+       background-color: #000000;
+    }
+    .ft-conteudo{
+       height: auto;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+     
+    }
+    .img-links{
+       padding: 10px;
+       width: 50%;
+    }
+    .img-links img{
+       width: 50%;
+       margin: 50px 50px;
+    }
+    .img-links a{
+       margin: 10px 50px;
+       text-decoration: none;
+       color: rgb(207, 207, 207);
+       line-height: 10px;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+    }
+    .img-links a:hover{
+       text-decoration: underline;
+       color: white;
+    }
+    .contato{
+       color: white;
+       width: 30%;
+       padding: 10px;
+       margin: 50px 100px;
+    }
+    .contato h2{
+       margin: 0px 0px 20px 0px;
+       font-size:30px ;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+    }
+    .contato small{
+       color: rgb(207, 207, 207);
+       font-size: 17px;
+       padding: 2px;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+    }
+    .contato p{
+       color: rgb(207, 207, 207);
+       font-size: 20px;
+       padding: 2px;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+    }
+    .selo{
+       padding: 10px;
+       margin: 55px 50px;
+       text-align: center;
+    }
+    .pagamento{
+       margin: 20px;
+    }
+    .segurança{
+       margin: 20px;
+    }
+    .pagamento h2{
+       color: white;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+    }
+    .pagamento img{
+       width: 30%;
+       margin-top: 20px;
+    }
+    .seguranca h2{
+       color: white;
+       font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+    }
+    .seguranca img{
+       width: 50%;
+    }
+    .social{
+       text-align: center;
+    }
+    .redes img{
+       padding: 10px;
+    }
+   }
+   @media (min-width: 1440px) and (max-width: 2000px){
+       *{
+           padding: 0;
+           margin: 0;
+           }
+           .banner-camiseta{
+              display: flex;
+              justify-content: center;
+              width: 100%;
+            }
+            .banner-camiseta img{
+              width: 80%;
+            }
+           .container-cabecalho{
+              display: flex;
+              justify-content: space-around;
+              height: auto;
+              position: fixed;
+              width: 100%;
+              background-color: white;
+              height: auto;
+              z-index: 999;
+              }
+              .container-cabecalho.rolagem{
+                 box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+           -webkit-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+           -moz-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1); }
+           .logo-lazzy{
+             text-align: center;
+           width: 10%;
+           }
+           .logo-lazzy img{
+           width: 90%;
+           padding: 45px 0px 0px 90px;
+           }
+           .central-atendimento{
+           display: flex;
+           padding: 60px 0px 0px 0px;
+           }
+           .central-atendimento img{
+           width:80%;
+           }
+           .central-atendimento td{
+           width: 35px;
+           }
+           .central-atendimento p{
+           font-size: 12px;
+           color: rgb(104, 104, 104);
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+           }
+           .central-atendimento a{
+           text-decoration: none;
+           color: rgb(48, 47, 47);
+           }
+           .central-atendimento a:hover{
+           text-decoration: underline;
+           }
+           .menuoculto{
+              height: 100%;
+              width: 0px;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color:#000000 ;
+              overflow-x: hidden;
+              transition: 0.5s;
+              padding-top: 60px;
+              box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+              -webkit-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+              -moz-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+           }
+           .menuoculto a{
+              margin: 10px;
+              padding: 20px 8px 8px 32px;
+              text-decoration: none;
+              font-size: 25px;
+              color: #d8d6d6;
+              display: block;
+              transition: 0.3s;
+              font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+              transition: linear 0.4s;
+           }
+           .menuoculto a:hover{
+              color: #ffffff;
+              text-decoration: none;
+              transform: scale(1.1, 1.1);
+           }
+           @media screen and(max-width: 450px) {
+              .menuoculto{
+                 padding-top: 15px;
+              }
+              .menuoculto a{
+                 font-size: 18px;
+              }
+           }
+        .btn-fechar{
+           position: absolute;
+           top: 20px;
+           right: 25px;
+           font-size: 36px;
+           margin-left: 50px;
+           color: white;
+           }
+           .principal{
+              opacity: 0;
+           }
+           .principal.aparecer{
+              opacity: 1;
+              transition: margin-left 0.5s;
+              margin: 10px 42px 0px -50px;
+           }
+           .log-lista-carrinho{
+           display: flex;
+           padding: 60px 0px 0px 0px;
+           justify-content: space-between;
+           font-size: 11px;
+           color: rgb(104, 104, 104);
+           }
+           .log-lista-carrinho img{
+           width: 75%;
+           padding: 10px;
+           }
+           .log-lista-carrinho .img-log{
+           width: 40px;
+           }
+           .log-lista-carrinho .img-log1{
+              width: 55px;
+           }
+           .lista{
+              position: relative;
+           }
+           .carrinho{
+              position: relative;
+           }
+           #carrinho{
+              position: absolute;
+              margin: -49px 40px;
+           }
+           #desejos{
+              position: absolute;
+              margin: -50px 40px;
+           }
+           .lista .listadesign{
+             border: none;
+           }
+           .log-lista-carrinho td{
+              height: 40px;
+              font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+           }
+           .log-lista-carrinho a{
+           text-decoration: none;
+           color: rgb(48, 47, 47);
+           font-size: 10px;
+           
+           }
+           .log-lista-carrinho a:hover{
+           text-decoration:underline;
+           }
+           .divisao1{
+              padding: 130px 0px 0px 0px;
+             }
+           .divisao{
+           display: block;
+           margin: 0px 110px 0px 110px;
+           height: 2px;
+           background-color: black;
+           border-radius: 0.5px;
+           }
+           .container-links{
+             display: flex;
+             justify-content: space-around;
+             align-items: center;
+             margin: 0px 675px auto;
+           }
+           .container-links a div{
+             text-decoration: none;
+             padding: 25px 30px;
+             color: rgb(24, 24, 24);
+           }
+           .container-links a{
+             text-decoration: none;
+             font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+           }
+           .container-links a div:hover{
+             font-weight: 900;
+            
+           }
+           .link-com-hover {
+             position: relative;
+             display: inline-block; 
+         }
+         .link-com-hover::after {
+             content: ''; 
+             position: absolute;
+             left: 0;
+             bottom: 0;
+             width: 100%;
+             height: 0px;
+             background-color: rgb(0, 0, 0);
+             transition: height 0.3s ease; 
+             transform: scaleX(0); 
+         }
+         .link-com-hover:hover::after {
+             height: 3%; 
+             transform: scaleX(1); 
+         }
+         .link-com-hover a {
+             display: inline-block;
+             padding-bottom: 5px; 
+             text-decoration: none; 
+         }
+         .container-maisvendidos{
+           text-align: center;
+          }
+          .container-maisvendidos h2{
+           font-size: 30px;
+           margin: 20px 0px;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+          }
+          .produtos-mv{
+           display: flex;
+           justify-content: space-evenly;
+          }
+          .produto {
+           width: 20%;
+           background-color: rgb(255, 255, 255);
+           height: 400px auto;
+           margin: 50px -90px;
+           transition: linear 0.4s;
+           position: relative;
+           overflow: hidden;
+          }
+          
+          .produto:hover {
+           box-shadow: 0px 4px 17px 0px rgba(29, 29, 29, 0.199);
+           transform: scale(1.1, 1.1);
+          }
+          
+          .produto img {
+           width: 90%;
+           padding: 10px;
+           transition: opacity 0.2s ease-in-out;
+          }
+          
+          .produto img.img2 {
+           opacity: 0;
+           position: absolute;
+           top: -15px;
+           left: 10px;
+          }
+          
+          .produto:hover img.img1 {
+           opacity: 0;
+          }
+          
+          .produto:hover img.img2 {
+           opacity: 1;
+          }
+          .produto h3{
+           padding: 10px;
+           font-size: 25px;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+          }
+          .produto h4{
+           font-size: 25px;
+           padding: 10px 0px 0px 0px;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+           text-decoration: underline;
+          }
+          .produto p{
+           font-size: 10px;
+           padding: 0px 0px 20px 0px;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+          }
+          .produto a{
+           text-decoration: none;
+           color:black;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+          }
+          footer{
+           background-color: #000000;
+        }
+        .ft-conteudo{
+           height: auto;
+           width: 100%;
+           display: flex;
+           justify-content: center;
+         
+        }
+        .img-links{
+           padding: 10px;
+           width: 50%;
+        }
+        .img-links img{
+           width: 35%;
+           margin: 50px 50px;
+        }
+        .img-links a{
+           margin: 10px 50px;
+           text-decoration: none;
+           color: rgb(207, 207, 207);
+           line-height: 10px;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+        }
+        .img-links a:hover{
+           text-decoration: underline;
+           color: white;
+        }
+        .contato{
+           color: white;
+           width: 30%;
+           padding: 10px;
+           margin: 50px 100px;
+        }
+        .contato h2{
+           margin: 0px 0px 20px 0px;
+           font-size:30px ;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+        }
+        .contato small{
+           color: rgb(207, 207, 207);
+           font-size: 17px;
+           padding: 2px;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+        }
+        .contato p{
+           color: rgb(207, 207, 207);
+           font-size: 20px;
+           padding: 2px;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+        }
+        .selo{
+           padding: 10px;
+           margin: 55px 50px;
+           text-align: center;
+        }
+        .pagamento{
+           margin: 20px;
+        }
+        .segurança{
+           margin: 20px;
+        }
+        .pagamento h2{
+           color: white;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+        }
+        .pagamento img{
+           width: 30%;
+           margin-top: 20px;
+        }
+        .seguranca h2{
+           color: white;
+           font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+        }
+        .seguranca img{
+           width: 50%;
+        }
+        .social{
+           text-align: center;
+        }
+        .redes img{
+           padding: 10px;
+        }
+       }
+       @media (min-width: 2000px) and (max-width: 2400px){ 
+           *{
+               padding: 0;
+               margin: 0;
+               }
+               .container-cabecalho{
+                  display: flex;
+                  justify-content: space-around;
+                  height: auto;
+                  position: fixed;
+                  width: 100%;
+                  background-color: white;
+                  height: auto;
+                  z-index: 999;
+                  }
+                  .container-cabecalho.rolagem{
+                     box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+               -webkit-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+               -moz-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1); }
+               .logo-lazzy{
+                 text-align: center;
+               width: 10%;
+               }
+               .logo-lazzy img{
+               width: 90%;
+               padding: 45px 0px 0px 90px;
+               }
+               .central-atendimento{
+               display: flex;
+               padding: 60px 0px 0px 0px;
+               }
+               .central-atendimento img{
+               width:80%;
+               }
+               .central-atendimento td{
+               width: 35px;
+               }
+               .central-atendimento p{
+               font-size: 12px;
+               color: rgb(104, 104, 104);
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               }
+               .central-atendimento a{
+               text-decoration: none;
+               color: rgb(48, 47, 47);
+               }
+               .central-atendimento a:hover{
+               text-decoration: underline;
+               }
+               .menuoculto{
+                  height: 100%;
+                  width: 0px;
+                  position: fixed;
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  background-color:#000000 ;
+                  overflow-x: hidden;
+                  transition: 0.5s;
+                  padding-top: 60px;
+                  box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+                  -webkit-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+                  -moz-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+               }
+               .menuoculto a{
+                  margin: 10px;
+                  padding: 20px 8px 8px 32px;
+                  text-decoration: none;
+                  font-size: 25px;
+                  color: #d8d6d6;
+                  display: block;
+                  transition: 0.3s;
+                  font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+                  transition: linear 0.4s;
+               }
+               .menuoculto a:hover{
+                  color: #ffffff;
+                  text-decoration: none;
+                  transform: scale(1.1, 1.1);
+               }
+               @media screen and(max-width: 450px) {
+                  .menuoculto{
+                     padding-top: 15px;
+                  }
+                  .menuoculto a{
+                     font-size: 18px;
+                  }
+               }
+            .btn-fechar{
+               position: absolute;
+               top: 20px;
+               right: 25px;
+               font-size: 36px;
+               margin-left: 50px;
+               color: white;
+               }
+               .principal{
+                  opacity: 0;
+               }
+               .principal.aparecer{
+                  opacity: 1;
+                  transition: margin-left 0.5s;
+                  margin: 28px 60px 0px -50px;
+               }
+               .log-lista-carrinho{
+               display: flex;
+               padding: 60px 0px 0px 0px;
+               justify-content: space-between;
+               font-size: 11px;
+               color: rgb(104, 104, 104);
+               }
+               .log-lista-carrinho img{
+               width: 75%;
+               padding: 10px;
+               }
+               .log-lista-carrinho .img-log{
+               width: 40px;
+               }
+               .log-lista-carrinho .img-log1{
+                  width: 55px;
+               }
+               .lista{
+                  position: relative;
+               }
+               .carrinho{
+                  position: relative;
+               }
+               #carrinho{
+                  position: absolute;
+                  margin: -49px 40px;
+               }
+               #desejos{
+                  position: absolute;
+                  margin: -50px 40px;
+               }
+               .lista .listadesign{
+                 border: none;
+               }
+               .log-lista-carrinho td{
+                  height: 40px;
+                  font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               }
+               .log-lista-carrinho a{
+               text-decoration: none;
+               color: rgb(48, 47, 47);
+               font-size: 10px;
+               
+               }
+               .log-lista-carrinho a:hover{
+               text-decoration:underline;
+               }
+               .divisao1{
+                  padding: 160px 0px 0px 0px;
+                 }
+               .divisao{
+               display: block;
+               margin: 0px 110px 0px 110px;
+               height: 2px;
+               background-color: black;
+               border-radius: 0.5px;
+               }
+               .container-links{
+                 display: flex;
+                 justify-content: space-around;
+                 align-items: center;
+                 margin: 0px 675px;
+               }
+               .container-links a div{
+                 text-decoration: none;
+                 padding: 25px 30px;
+                 color: rgb(24, 24, 24);
+               }
+               .container-links a{
+                 text-decoration: none;
+                 font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               }
+               .container-links a div:hover{
+                 font-weight: 900;
+                
+               }
+               .link-com-hover {
+                 position: relative;
+                 display: inline-block; 
+             }
+             .link-com-hover::after {
+                 content: ''; 
+                 position: absolute;
+                 left: 0;
+                 bottom: 0;
+                 width: 100%;
+                 height: 0px;
+                 background-color: rgb(0, 0, 0);
+                 transition: height 0.3s ease; 
+                 transform: scaleX(0); 
+             }
+             .link-com-hover:hover::after {
+                 height: 3%; 
+                 transform: scaleX(1); 
+             }
+             .link-com-hover a {
+                 display: inline-block;
+                 padding-bottom: 5px; 
+                 text-decoration: none; 
+             }
+             .banner-camiseta{
+               display: flex;
+               justify-content: center;
+               width: 100%;
+             }
+             .banner-camiseta img{
+               width: 80%;
+             }
+             .container-maisvendidos{
+               text-align: center;
+              }
+              .container-maisvendidos h2{
+               font-size: 30px;
+               margin: 20px 0px;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+              }
+              .produtos-mv{
+               display: flex;
+               justify-content: space-evenly;
+              }
+              .produto {
+               width: 20%;
+               background-color: rgb(255, 255, 255);
+               height: 400px auto;
+               margin: 50px -150px;
+               transition: linear 0.4s;
+               position: relative;
+               overflow: hidden;
+              }
+              
+              .produto:hover {
+               box-shadow: 0px 4px 17px 0px rgba(29, 29, 29, 0.199);
+               transform: scale(1.1, 1.1);
+              }
+              
+              .produto img {
+               width: 90%;
+               padding: 10px;
+               transition: opacity 0.2s ease-in-out;
+              }
+              
+              .produto img.img2 {
+               opacity: 0;
+               position: absolute;
+               top: -15px;
+               left: 10px;
+              }
+              
+              .produto:hover img.img1 {
+               opacity: 0;
+              }
+              
+              .produto:hover img.img2 {
+               opacity: 1;
+              }
+              .produto h3{
+               padding: 10px;
+               font-size: 25px;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+              }
+              .produto h4{
+               font-size: 25px;
+               padding: 10px 0px 0px 0px;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               text-decoration: underline;
+              }
+              .produto p{
+               font-size: 10px;
+               padding: 0px 0px 20px 0px;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+              }
+              .produto a{
+               text-decoration: none;
+               color:black;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+              }
+              footer{
+               background-color: #000000;
+            }
+            .ft-conteudo{
+               height: auto;
+               width: 100%;
+               display: flex;
+               justify-content: center;
+             
+            }
+            .img-links{
+               padding: 10px;
+               width: 50%;
+            }
+            .img-links img{
+               width: 30%;
+               margin: 50px 50px;
+            }
+            .img-links a{
+               margin: 10px 50px;
+               text-decoration: none;
+               color: rgb(207, 207, 207);
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               font-size: 25px;
+            }
+            .img-links a:hover{
+               text-decoration: underline;
+               color: white;
+            }
+            .contato{
+               color: white;
+               width: 30%;
+               padding: 10px;
+               margin: 50px 100px;
+            }
+            .contato h2{
+               margin: 0px 0px 20px 0px;
+               font-size:30px ;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               font-size: 40px;
+            }
+            .contato small{
+               color: rgb(207, 207, 207);
+               font-size: 17px;
+               padding: 2px;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               font-size: 25px;
+            }
+            .contato p{
+               color: rgb(207, 207, 207);
+               font-size: 20px;
+               padding: 2px;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               font-size: 30px;
+            }
+            .selo{
+               padding: 10px;
+               margin: 55px 50px;
+               text-align: center;
+            }
+            .pagamento{
+               margin: 20px;
+            }
+            .segurança{
+               margin: 20px;
+            }
+            .pagamento h2{
+               color: white;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               font-size: 30px;
+            }
+            .pagamento img{
+               width: 40%;
+               margin-top: 20px;
+            }
+            .seguranca h2{
+               color: white;
+               font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+               font-size: 30px;
+            }
+            .seguranca img{
+               width: 60%;
+            }
+            .social{
+               text-align: center;
+            }
+            .redes img{
+               padding: 10px;
+               width: 2.5%;
+            }
+           }

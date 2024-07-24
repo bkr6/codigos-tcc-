@@ -1,0 +1,233 @@
+.container-maisvendidos{
+ text-align: center;
+}
+.container-maisvendidos h2{
+ font-size: 30px;
+ margin: 20px 0px;
+ font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.produtos-mv{
+ display: flex;
+ justify-content: space-evenly;
+}
+.produto {
+ width: 20%;
+ background-color: rgb(255, 255, 255);
+ height: 400px auto;
+ margin: 50px -90px;
+ transition: linear 0.4s;
+ position: relative;
+ overflow: hidden;
+}
+
+.produto:hover {
+ box-shadow: 0px 4px 17px 0px rgba(29, 29, 29, 0.199);
+ transform: scale(1.1, 1.1);
+}
+
+.produto img {
+ width: 90%;
+ padding: 10px;
+ transition: opacity 0.2s ease-in-out;
+}
+
+.produto img.img2 {
+ opacity: 0;
+ position: absolute;
+ top: -15px;
+ left: 10px;
+}
+
+.produto:hover img.img1 {
+ opacity: 0;
+}
+
+.produto:hover img.img2 {
+ opacity: 1;
+}
+.produto h3{
+ padding: 10px;
+ font-size: 25px;
+ font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.produto h4{
+ font-size: 25px;
+ padding: 10px 0px 0px 0px;
+ font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+ text-decoration: underline;
+}
+.produto p{
+ font-size: 10px;
+ padding: 0px 0px 20px 0px;
+ font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.produto a{
+ text-decoration: none;
+ color:black;
+ font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+#btn-sair{
+   width: 50px;
+}
+.container-promo{
+   width: 100%;
+   background-color: black;
+   height: 1000px auto;
+}
+.container-conjunto{
+   background-color: white;
+   width: 100%;
+}
+.prod-promo{
+   display: flex;
+   justify-content: right;
+   margin: 40px 60px 40px 20px;
+   background-image: url(/Assets/img/LAZZY.png);
+   background-repeat: no-repeat;
+}
+.produtos-promo{
+width: 15%;
+background-color: rgb(255, 255, 255);
+height: 400px auto;
+margin: 100px 20px;
+transition: linear 0.4s;
+position: relative;
+overflow: hidden;
+}
+.produtos-promo img{
+   text-align: center;
+   width: 90%;
+   padding: 20px 20px 5px 20px;
+   transition: opacity 0.2s ease-in-out;
+   position: relative;
+   top: 10px;
+   left: -10px;
+}
+.produtos-promo:hover {
+   box-shadow: 0px 4px 17px 0px rgba(29, 29, 29, 0.199);
+   transform: scale(1.1, 1.1);
+  }
+  
+  .produtos-promo img.img2 {
+   opacity: 0;
+   position: absolute;
+   top: -8px;
+   left: -5px;
+  }
+  
+  .produtos-promo:hover img.img1 {
+   opacity: 0;
+  }
+  
+  .produtos-promo:hover img.img2 {
+   opacity: 1;
+  }
+.produtos-promo h3{
+   text-align: center;
+   padding: 10px;
+   font-size: 15px;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+  }
+  .produtos-promo h4{
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 0px 0px 0px;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+   text-decoration: underline;
+  }
+  .produtos-promo p{
+   text-align: center;
+   font-size: 8px;
+   padding: 0px 0px 20px 0px;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.produtos-promo a{
+text-decoration: none;
+color:black;
+font-family: 'Madimi One';
+}
+footer{
+   background-color: #000000;
+}
+.ft-conteudo{
+   height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ 
+}
+.img-links{
+   padding: 10px;
+   width: 50%;
+}
+.img-links img{
+   width: 50%;
+   margin: 50px 50px;
+}
+.img-links a{
+   margin: 10px 50px;
+   text-decoration: none;
+   color: rgb(207, 207, 207);
+   line-height: 10px;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.img-links a:hover{
+   text-decoration: underline;
+   color: white;
+}
+.contato{
+   color: white;
+   width: 30%;
+   padding: 10px;
+   margin: 50px 100px;
+}
+.contato h2{
+   margin: 0px 0px 20px 0px;
+   font-size:30px ;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.contato small{
+   color: rgb(207, 207, 207);
+   font-size: 17px;
+   padding: 2px;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.contato p{
+   color: rgb(207, 207, 207);
+   font-size: 20px;
+   padding: 2px;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.selo{
+   padding: 10px;
+   margin: 55px 50px;
+   text-align: center;
+}
+.pagamento{
+   margin: 20px;
+}
+.segurança{
+   margin: 20px;
+}
+.pagamento h2{
+   color: white;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.pagamento img{
+   width: 30%;
+   margin-top: 20px;
+}
+.seguranca h2{
+   color: white;
+   font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+}
+.seguranca img{
+   width: 50%;
+}
+.social{
+   text-align: center;
+}
+.redes img{
+   padding: 10px;
+}
+

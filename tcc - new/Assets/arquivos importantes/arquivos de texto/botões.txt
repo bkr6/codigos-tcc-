@@ -1,0 +1,41 @@
+    <button onclick="adicionarProduto('carrinho')" id="btnCarrinho">Adicionar Produto ao Carrinho</button>
+    <button onclick="adicionarProduto('desejos')" id="btnDesejos">Adicionar Produto a lista de desejos</button>
+    <button onclick="removerProduto('desejos')">Remover Produto</button>
+    <button onclick="removerProduto('carrinho')">Remover Produto</button>
+
+    codigo botões:
+
+    function adicionarProduto(elementId) {
+    var contadorElemento = document.getElementById(elementId);
+    var contador = parseInt(contadorElemento.textContent);
+    contador++;
+    contadorElemento.textContent = contador;
+    localStorage.setItem(elementId, contador);
+}
+function removerProduto(elementId) {
+    var contadorElemento = document.getElementById(elementId);
+    var contador = parseInt(contadorElemento.textContent);
+    if(contador >0){
+        contador--;
+        contadorElemento.textContent = contador;
+        localStorage.setItem(elementId, contador);
+    }
+}
+
+window.onload = function() {
+    var carrinho = localStorage.getItem("carrinho");
+    var desejos = localStorage.getItem("desejos");
+    if (carrinho !== null) {
+        document.getElementById("carrinho").textContent = carrinho;
+    }
+    if (desejos !== null) {
+        document.getElementById("desejos").textContent = desejos;
+    }
+};
+window.addEventListener('storage', function(event) {
+    if (event.key === 'carrinho') {
+        document.getElementById("carrinho").textContent = event.newValue;
+    } else if (event.key === 'desejos') {
+        document.getElementById("desejos").textContent = event.newValue;
+    }
+});

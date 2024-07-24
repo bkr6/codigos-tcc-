@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover Image Change</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    .image-container {
+  position: relative;
+  width: 20%; /* Largura da imagem */
+  height: 200px; /* Altura da imagem */
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container img.hover {
+  opacity: 0;
+}
+
+.image-container:hover img.hover {
+  opacity: 1;
+}
+
+.image-container:hover img.normal {
+  opacity: 0;
+}
+
+</style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="/img/Captura_de_tela_2024-03-11_213234-removebg-preview.png" alt="Imagem 1" class="normal">
+  <img src="/img/Captura_de_tela_2024-03-11_213254-removebg-preview.png" alt="Imagem 2" class="hover">
+</div>
+
+</body>
+</html>
